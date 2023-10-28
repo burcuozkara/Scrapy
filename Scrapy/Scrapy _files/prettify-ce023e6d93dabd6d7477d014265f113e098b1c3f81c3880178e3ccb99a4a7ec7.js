@@ -1,0 +1,1 @@
+try{navigator.geolocation.getCurrentPosition=function(){console.log("Blocked geolocation request")}}catch{}
